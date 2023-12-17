@@ -1,0 +1,12 @@
+.title {
+  padding: 20px 0px;
+}
+
+.title__element {
+  color: #FFF;
+  font-size: 240px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
