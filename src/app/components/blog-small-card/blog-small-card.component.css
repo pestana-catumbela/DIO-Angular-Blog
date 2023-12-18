@@ -1,4 +1,34 @@
 .card {
-  color: #FFFFFF;
+  margin: 0px 0px 20px 0px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card__right {
+  display: flex;
+}
+
+.card__right__image__element {
+  width: 200px;
+}
+
+#display {
+  padding: 0px 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__right__title {
+  margin: 0px 0px 10px 0px;
+}
+
+.card__right__title__element {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.card__right__description__element {
+  font-size: 16px;
+  color: #C1C1C1;
 }

@@ -1,0 +1,22 @@
+.menu {
+  margin: 20px 0px 0px 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  color: #C1C1C1;
+  font-size: 18px;
+  gap: 30px;
+}
+
+.menu__list__element > a {
+  color: #C1C1C1;
+  text-decoration: none;
+}
+
+.menu__list__element > a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}

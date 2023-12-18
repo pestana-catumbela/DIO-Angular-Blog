@@ -9,9 +9,13 @@
 }
 
 .components__news__bigcard-component {
-  width: 50%;
+  width: 45%;
 }
 
 .components__news__smallcard-component {
-  width: 50%;
+  width: 55%;
+}
+
+hr {
+  margin: 0px 0px 20px 0px;
 }

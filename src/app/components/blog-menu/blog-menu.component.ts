@@ -5,11 +5,15 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './blog-menu.component.html',
   styleUrls: ['./blog-menu.component.css']
 })
+
 export class BlogMenuComponent implements OnInit {
+  items:string[] = [];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    this.items = ['LinkedIn', 'GitHub', 'YouTube'];
   }
 
+  ngOnInit(): void {
+
+  }
 }
