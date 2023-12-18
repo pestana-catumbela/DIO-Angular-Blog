@@ -1,0 +1,17 @@
+#display {
+  display: flex;
+  justify-content: center;
+}
+
+.components__news {
+  width: 65%;
+  display: flex;
+}
+
+.components__news__bigcard-component {
+  width: 50%;
+}
+
+.components__news__smallcard-component {
+  width: 50%;
+}

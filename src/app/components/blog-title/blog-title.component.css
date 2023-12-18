@@ -2,11 +2,18 @@
   padding: 20px 0px;
 }
 
+#display {
+  display: flex;
+  justify-content: center;
+}
+
 .title__element {
+  width: 65%;
   color: #FFF;
   font-size: 240px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   display: flex;
   justify-content: center;
+
 }

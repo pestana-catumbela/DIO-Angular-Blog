@@ -7,6 +7,7 @@ import { BlogMenuComponent } from './components/blog-menu/blog-menu.component';
 import { BlogTitleComponent } from './components/blog-title/blog-title.component';
 import { BlogBigCardComponent } from './components/blog-big-card/blog-big-card.component';
 import { BlogSmallCardComponent } from './components/blog-small-card/blog-small-card.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BlogSmallCardComponent } from './components/blog-small-card/blog-small-
     BlogMenuComponent,
     BlogTitleComponent,
     BlogBigCardComponent,
-    BlogSmallCardComponent
+    BlogSmallCardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
