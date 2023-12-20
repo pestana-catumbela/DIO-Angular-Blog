@@ -10,15 +10,12 @@
   <div id="display">
     <div class="components__news">
       <div class="components__news__bigcard-component">
-        <app-blog-big-card></app-blog-big-card>
+        <app-blog-big-card *ngFor="let bigCardData of bigCardDatas" bigCardImage="{{ bigCardData.bigCardImage }}" bigCardTitle="{{ bigCardData.bigCardTitle }}" bigCardDescription="{{ bigCardData.bigCardDescription }}"></app-blog-big-card>
       </div>
 
       <div class="components__news__smallcard-component">
-        <app-blog-small-card></app-blog-small-card>
-        <hr>
-        <app-blog-small-card></app-blog-small-card>
-        <hr>
-        <app-blog-small-card></app-blog-small-card>
+        <app-blog-small-card *ngFor="let smallCardData of smallCardDatas" smallCardImage="{{ smallCardData.smallCardImage }}" smallCardTitle="{{ smallCardData.smallCardTitle }}" smallCardDescription="{{ smallCardData.smallCardDescription }}"></app-blog-small-card>
+        <!-- <hr *ngFor="let hrs of smallCardDatas"> -->
       </div>
     </div>
   </div>
