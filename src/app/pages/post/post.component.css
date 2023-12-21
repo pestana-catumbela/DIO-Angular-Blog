@@ -1,3 +1,48 @@
-p{
+hr {
+  margin: 20px 0px;
+}
+
+.post {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#display-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.post__title {
+  width: 60%;
+  text-align: center;
+}
+
+.post__title > h2 {
   color: #FFF;
+}
+
+#display-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.post__image {
+  width: 60%;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+#display-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.post__content {
+  width: 42%;
+}
+
+.post__content > p {
+  color: #C1C1C1;
 }
