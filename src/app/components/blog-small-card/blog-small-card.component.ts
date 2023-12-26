@@ -8,10 +8,13 @@ import { Component, OnInit, Input } from '@angular/core';
 
 export class BlogSmallCardComponent implements OnInit {
   @Input()
-  smallCardImage:string = '';
+  id:string = '0';
 
   @Input()
   smallCardTitle:string = '';
+
+  @Input()
+  smallCardImage:string = '';
 
   @Input()
   smallCardDescription = '';

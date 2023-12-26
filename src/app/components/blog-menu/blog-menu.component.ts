@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 
 export class BlogMenuComponent implements OnInit {
   items:string[] = [];
+  links:string[] = [];
 
   constructor() {
     this.items = ['LinkedIn', 'GitHub', 'YouTube'];
+    this.links = ['https://www.linkedin.com/', 'https://github.com/', 'https://www.youtube.com/'];
   }
 
   ngOnInit(): void {

@@ -25,3 +25,8 @@
   color: #C1C1C1;
   line-height: 25px;
 }
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}

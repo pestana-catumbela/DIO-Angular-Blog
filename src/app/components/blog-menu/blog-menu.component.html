@@ -1,9 +1,9 @@
 <nav class="menu">
   <ul class="menu__list">
-    <li class="menu__list__element" *ngFor="let item of items; let index = index">
-      <a href="https://google.com" target="_blank">
+    <li class="menu__list__element" *ngFor="let item of items; let i = index">
+      <a href="{{ links[i] }}" target="_blank">
         {{ item }}
-        <span *ngIf="index <= -1">&bull;</span>
+        <span *ngIf="i <= -1">&bull;</span>
       </a>
     </li>
   </ul>

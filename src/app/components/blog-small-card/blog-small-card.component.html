@@ -1,12 +1,16 @@
 <div class=card>
   <div class="card__right">
     <div class="card__right__image">
-      <img src="{{ smallCardImage }}" alt="News Image" class="card__right__image__element">
+      <a [routerLink]="['post', id]">
+        <img src="{{ smallCardImage }}" alt="News Image" class="card__right__image__element">
+      </a>
     </div>
 
     <div id="display">
       <div class="card__right__title">
-        <h2 class="card__right__title__element">{{ smallCardTitle }}</h2>
+        <a [routerLink]="['post', id]">
+          <h2 class="card__right__title__element">{{ smallCardTitle }}</h2>
+        </a>
       </div>
 
       <div class="card__right__description">

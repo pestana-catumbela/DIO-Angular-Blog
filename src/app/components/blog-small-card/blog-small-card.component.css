@@ -32,3 +32,8 @@
   font-size: 16px;
   color: #C1C1C1;
 }
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
